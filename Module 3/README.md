@@ -1,6 +1,6 @@
 # Module 3: Target Triage with Protein Language Models in Ovarian Carcinoma
 
-**BIOT 6900 · Module 3 Assignment (Computational Lab 3)** · [Your name] · Northeastern University · Disease: **ovarian carcinoma**
+**BIOT 6900 · Module 3 Assignment (Computational Lab 3)** · Zaina Akhtar · Northeastern University · Disease: **ovarian carcinoma**
 
 This module adds a tractability check to my 15 ovarian carcinoma targets from Module 2. It asks whether each target resembles proteins we already know how to drug, and with which modality (small molecule or antibody). It also scores the course anchor variants (APOE ε2 and ε4, TREM2 R47H, and the TP53 R175H hotspot) and re-ranks the targets for Week 4 (structure prediction).
 
@@ -35,5 +35,4 @@ The analysis uses the course data pack: a 1,201-protein training panel with smal
 
 ## Issues encountered
 
-- [Replace with anything that went wrong for you, or delete this section.]
 - No column renaming was needed, since `targets_ovarian.csv` already has `gene` and `score`.
